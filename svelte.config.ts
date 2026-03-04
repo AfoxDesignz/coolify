@@ -1,4 +1,4 @@
-import { vitePreprocess, type SvelteConfig } from '@sveltejs/vite-plugin-svelte';
+import { vitePreprocess, type SvelteConfig } from "@sveltejs/vite-plugin-svelte";
 
 const config: SvelteConfig = {
 	preprocess: vitePreprocess(),
@@ -10,14 +10,14 @@ const config: SvelteConfig = {
 		dev: true,
 		experimental: {
 			async: true,
-		}
+		},
 	},
 	vitePlugin: {
 		inspector: {
-			showToggleButton: 'always',
-			toggleButtonPos: 'top-right'
-		}
-	}
+			showToggleButton: "always",
+			toggleButtonPos: "top-right",
+		},
+	},
 };
 
 export default config;
